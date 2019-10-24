@@ -8,3 +8,6 @@ class UserProfile(models.Model):
     contact=models.CharField(max_length=12)
     linkedIn =  URLOrRelativeURLField()
     projects = models.ForeignKey('Project',on_delete=models.CASCADE,null=True)
+
+    def save_profile(self):
+        self.save()
