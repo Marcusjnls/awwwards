@@ -52,3 +52,9 @@ class ProjectTestClass(TestCase):
         self.new_project.save_project()
         projects = Project.objects.all()
         self.assertTrue(len(projects) > 0)
+
+
+    def test_delete_project(self):
+        self.new_project.delete_project()
+        projects = Project.objects.all()
+        self.assertTrue(len(projects) == 0)
