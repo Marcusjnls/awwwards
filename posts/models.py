@@ -18,3 +18,6 @@ class UserProfile(models.Model):
     def update_bio(self,bio):
         self.bio = bio
         self.save()        
+
+    def __str__(self):
+        return self.user.username        
