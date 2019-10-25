@@ -44,10 +44,6 @@ class ProjectTestClass(TestCase):
     def test_instance(self):
         self.assertTrue(isinstance(self.new_profile,UserProfile))
 
-
-    def test_instance(self):
-        self.assertTrue(isinstance(self.new_profile,UserProfile))
-
     def test_save_project(self):
         self.new_project.save_project()
         projects = Project.objects.all()
