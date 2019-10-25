@@ -4,13 +4,13 @@ An application that allows a user to post a project he/she has created and get i
 
 ## Author
 
-* **Marcus Jean-Louis**  [Marcusjnls](https://github.com/Marcusjnls)
+* [Marcus Jean-Louis](https://github.com/Marcusjnls)
 
 ## Getting Started
 
 Fork this repository or clone it to your local machine running Ubuntu by using the following commands:
 ```
-git clone (https://github.com/Marcusjnls/instagram-clone.git)
+git clone (https://github.com/Marcusjnls/awwwards.git)
 ```
 
 ## Behavior Driven Development
